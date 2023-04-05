@@ -9,7 +9,7 @@ document.getElementById("colore").innerText = (colorePreferito);
 
 // const annoCorrente = 2023
 
-const annoCorrente = new Date();
+const annoCorrente = new Date().getFullYear();
 
 const generatorePasword = (`${nomeUtente}-${cognomeUtente}-${colorePreferito}-${annoCorrente}`);
 document.getElementById("pasword").innerText = (generatorePasword);
