@@ -1,14 +1,14 @@
-let nomeUtente = prompt("nome utente?");
+const nomeUtente = prompt("nome utente?");
 document.getElementById("nome").innerText = (nomeUtente);
 
-let cognomeUtente = prompt("cognome utente?");
+const cognomeUtente = prompt("cognome utente?");
 document.getElementById("cognome").innerText = (cognomeUtente);
 
-let colorePreferito = prompt("colore preferito?");
+const colorePreferito = prompt("colore preferito?");
 document.getElementById("colore").innerText = (colorePreferito);
 
-let annoCorrente = 2023
+const annoCorrente = 2023
 
-let generatorePasword = (`${nomeUtente}-${cognomeUtente}-${colorePreferito}-${annoCorrente}`);
+const generatorePasword = (`${nomeUtente}-${cognomeUtente}-${colorePreferito}-${annoCorrente}`);
 document.getElementById("pasword").innerText = (generatorePasword);
 
